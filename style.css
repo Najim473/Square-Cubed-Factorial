@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  width: 300px;
+  height: 300px;
+  background: rgb(196, 112, 112);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.divBox {
+  position: relative;
+  text-align: center;
+}
